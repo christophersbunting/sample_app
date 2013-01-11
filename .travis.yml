@@ -3,7 +3,7 @@ language: ruby
 rvm: "1.9.2"
 
 # uncomment this line if your project needs to run something other than `rake`:
-bundler_args: --without development production assets
+bundler_args: --without development production
 
 before_script: RAILS_ENV=test bundle exec rake db:reset
 
